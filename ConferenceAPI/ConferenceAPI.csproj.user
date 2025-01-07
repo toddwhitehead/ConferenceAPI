@@ -2,6 +2,6 @@
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <PropertyGroup>
     <ActiveDebugProfile>https</ActiveDebugProfile>
-    <NameOfLastUsedPublishProfile>C:\Users\petender\source\repos\ConferenceAPI\ConferenceAPI\Properties\PublishProfiles\ConferenceAPI20250106211652 - Zip Deploy.pubxml</NameOfLastUsedPublishProfile>
+    <NameOfLastUsedPublishProfile>C:\ConferenceAPI\ConferenceAPI\Properties\PublishProfiles\ConferenceAPI20250106211652 - Zip Deploy1.pubxml</NameOfLastUsedPublishProfile>
   </PropertyGroup>
 </Project>

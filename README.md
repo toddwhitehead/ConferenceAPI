@@ -85,8 +85,9 @@ Follow these steps to publish the Conference API to Azure App Service:
 
 ### Step 4: Verify the Deployment
 
-1. Navigate to the URL of your App Service (e.g., `https://<your-app-service-name>.azurewebsites.net`).
-2. Ensure that the Swagger UI is accessible at `/swagger` and that the API endpoints are functioning correctly.
+1. Navigate to the URL of your App Service **adding the Swagger UI to the path ** (e.g., `https://<your-app-service-name>.azurewebsites.net/swagger/index.html`).
+2. Ensure that the Swagger UI is accessible at `/swagger/index.html` and that the API endpoints are functioning correctly.
+3. If you want to connect to the data JSON dataset directly, browse to the `/data` path in the URL (e.g., `https://<your-app-service-name>.azurewebsites.net/sessions` or /speakers or /topics directly).
 
 ### Additional Resources
 
@@ -94,3 +95,25 @@ Follow these steps to publish the Conference API to Azure App Service:
 - [Deploy an ASP.NET Core app to Azure App Service](https://docs.microsoft.com/en-us/azure/app-service/quickstart-dotnetcore)
 
 By following these steps, you should be able to successfully publish your Conference API to Azure App Service.
+
+## Screenshots of the Solution
+
+Here are some screenshots after the app got deployed to Azure App Service
+
+#### SwaggerUI
+![Swagger UI](/images/SwaggerUI.png)
+
+#### Speakers
+![Speakers](/images/Speakers_Endpoint.png)
+
+#### Topics
+![Topics](/images/Topics_Endpoint.png)
+
+#### Sessions
+![Sessions](/images/Sessions_Endpoint.png)
+
+#### Sessions filter by id
+![Sessions filter by id](/images/Session_id_Endpoint.png)
+
+#### SwaggerUI - Try It Out
+![Swagger UI - Try It Out](/images/SwaggerUI_TryOut_Speakers.png)
