@@ -54,7 +54,43 @@ Follow these steps to publish the Conference API to Azure App Service:
 - .NET 8 SDK installed.
 - Visual Studio or VS Code installed with the Azure development workload.
 
-### Step 1: Create an Azure App Service
+### Option 1: AZD - Azure Developer CLI
+
+- [AZD - Azure Developer CLI](https://learn.microsoft.com/en-us/azure/developer/azure-developer-cli/install-azd?tabs=winget-windows%2Cbrew-mac%2Cscript-linux&pivots=os-windows) is a great way to deploy this demo scenario. 
+- Requiring the following steps to get going:
+1. Create a new folder on your development machine (e.g. mkdir ConferenceAPI)
+2. From within the new folder, run:
+
+``` 
+azd init -t petender/ConferenceAPI
+```
+
+which triggers a git clone to download all assets to your local machine.
+
+3. To run the actual deployment and creating the Azure Resources, execute:
+
+```
+azd up
+```
+
+You will get asked for your Azure subscription, as well as Azure region of choice.
+
+4. Wait for the deployment to finish, and navigate to the Azure Portal once done. 
+
+5. If you want to delete the scenario, you can execute: 
+
+```
+azd down
+```
+
+which will remove the created Resource Group and deployed Azure Resources. It will NOT remove the cloned assets from your local machine. 
+
+Next time you want to deploy the same scenario, just perform the **azd up** step again and done. 
+
+
+### Option 2: Manual Deployment 
+
+#### Step 1: Create an Azure App Service
 
 1. Log in to the [Azure Portal](https://portal.azure.com/).
 2. Click on "Create a resource" and select "App Service".
@@ -67,7 +103,7 @@ Follow these steps to publish the Conference API to Azure App Service:
    - **Region**: Choose a region close to your users.
 4. Click "Review + create" and then "Create".
 
-### Step 2: Publish from Visual Studio
+#### Step 2: Publish from Visual Studio
 
 1. Open your ConferenceAPI project in Visual Studio.
 2. Right-click the project in Solution Explorer and select "Publish".
@@ -76,14 +112,14 @@ Follow these steps to publish the Conference API to Azure App Service:
 5. Select your existing App Service instance created in Step 1 and click "Finish".
 6. Click "Publish" to deploy your application to Azure.
 
-### Step 3: Configure the App Service
+#### Step 3: Configure the App Service
 
 1. Once the deployment is complete, go to the Azure Portal and navigate to your App Service.
 2. In the left-hand menu, select "Configuration".
 3. Add any necessary application settings or connection strings required by your application.
 4. Save the changes and restart the App Service if needed.
 
-### Step 4: Verify the Deployment
+## Verify the Deployment using SwaggerUI
 
 1. Navigate to the URL of your App Service **adding the Swagger UI to the path ** (e.g., `https://<your-app-service-name>.azurewebsites.net/swagger/index.html`).
 2. Ensure that the Swagger UI is accessible at `/swagger/index.html` and that the API endpoints are functioning correctly.
