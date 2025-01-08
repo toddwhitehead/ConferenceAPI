@@ -33,6 +33,19 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
+//Cause trouble by adding unwanted headers to the response
+app.Use(async (context, next) =>
+{
+    context.Response.OnStarting(() =>
+    {
+        context.Response.Headers.Append("x-powered-by", " ASP.NET Core");
+        context.Response.Headers.Append("x-aspnet-version", "8.0.404 ");
+        return Task.CompletedTask;
+    });
+
+    await next();
+});
+
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment()) //PDT - commented this out, to always show Swagger UI when running in both Development or in Azure Production App Service 
 //{
