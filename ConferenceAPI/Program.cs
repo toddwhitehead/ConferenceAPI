@@ -33,24 +33,11 @@ builder.Services.AddSwaggerGen(options =>
 
 var app = builder.Build();
 
-//Cause trouble by adding unwanted headers to the response
-app.Use(async (context, next) =>
-{
-    context.Response.OnStarting(() =>
-    {
-        context.Response.Headers.Append("x-powered-by", " ASP.NET Core");
-        context.Response.Headers.Append("x-aspnet-version", "8.0.404 ");
-        return Task.CompletedTask;
-    });
-
-    await next();
-});
-
 // Configure the HTTP request pipeline.
 //if (app.Environment.IsDevelopment()) //PDT - commented this out, to always show Swagger UI when running in both Development or in Azure Production App Service 
 //{
 app.UseSwagger();
-    app.UseSwaggerUI();
+app.UseSwaggerUI();
 //}
 
 app.UseHttpsRedirection();
@@ -75,10 +62,52 @@ List <Topic> ReadTopicsFromFile(string FilePath)
     return JsonSerializer.Deserialize<List<Topic>>(json);
 }
 
+//Cause trouble by adding unwanted headers to the response
+app.Use(async (context, next) =>
+{
+    context.Response.OnStarting(() =>
+    {
+        context.Response.Headers.Append("x-powered-by", " ASP.NET Core");
+        context.Response.Headers.Append("x-aspnet-version", "8.0.404 ");
+        return Task.CompletedTask;
+    });
+
+    await next();
+});
+
+// Middleware to replace "{{ConferenceAPI_HostAddress}}" with the actual base URL in the response
+app.Use(async (context, next) =>
+{
+    var originalBodyStream = context.Response.Body;
+    var request = context.Request;
+    var baseUrl = $"{request.Scheme}://{request.Host}";
+
+    using (var newBodyStream = new MemoryStream())
+    {
+        context.Response.Body = newBodyStream;
+
+        await next();
+
+        context.Response.Body = originalBodyStream;
+        newBodyStream.Seek(0, SeekOrigin.Begin);
+        var newBodyText = new StreamReader(newBodyStream).ReadToEnd();
+        newBodyText = newBodyText.Replace("{{ConferenceAPI_HostAddress}}", baseUrl, StringComparison.InvariantCultureIgnoreCase);
+
+        await context.Response.WriteAsync(newBodyText);
+    }
+});
+
+//redirect a simple root request to the Swagger UI
+app.MapGet("/", (HttpContext context) =>
+{
+    context.Response.Redirect("/swagger/index.html");
+    return Task.CompletedTask;
+});
+
+
 // Using Minimal APIs to define the routes and return the data; each route is defined with a lambda expression
 // to return the data from the JSON file; for the main (all data), we don't have a lambda expression, which means show all data from the JSON file
 // same approach for speakers and topics
-
 app.MapGet("/sessions", () =>
 {
     var sessions = ReadSessionsFromFile("transformed_sessions.json");
@@ -105,10 +134,10 @@ app.MapGet("/speakers", () =>
 });
 //.WithName("GetSpeakers")
 //.WithOpenApi();
-app.MapGet("/speaker/{id}", (string id) =>
+app.MapGet("/speaker/{id}", (string speakerID) =>
 {
     var speakers = ReadSpeakersFromFile("transformed_speakers.json");
-    return speakers.Find(sp => sp.speakerID == id);
+    return speakers.Find(sp => sp.speakerID == speakerID);
 });
 
 app.MapGet("/topics", () =>
@@ -119,7 +148,7 @@ app.MapGet("/topics", () =>
 //.WithName("GetSessions")
 //.WithOpenApi();
 
-app.MapGet("/topic/{id}", (string id) =>
+app.MapGet("/topics/{id}", (string id) =>
 {
     var topics = ReadTopicsFromFile("transformed_topics.json");
     return topics.Find(t => t.topicid == id);
@@ -129,8 +158,9 @@ app.Run();
 
 // the class definition for each data object; each item corresponds to the item in the JSON dataset
 class Session
-    
 {
+    //add href
+    public required string href { get; set; }
     public required string session_id { get; set; } //using string as data type, as the id is not used as a number value
     public required string title { get; set; }
     public required string timeslot { get; set; }
@@ -149,8 +179,3 @@ class Topic
     public required string topicid { get; set; }    //using string as data type, as the id is not used as a number value
     public required string topicvalue { get; set; }
 }
-
-
-
-
-
