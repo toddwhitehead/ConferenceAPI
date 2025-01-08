@@ -97,11 +97,17 @@ app.Use(async (context, next) =>
     }
 });
 
+//redirect a simple root request to the Swagger UI
+app.MapGet("/", (HttpContext context) =>
+{
+    context.Response.Redirect("/swagger/index.html");
+    return Task.CompletedTask;
+});
+
 
 // Using Minimal APIs to define the routes and return the data; each route is defined with a lambda expression
 // to return the data from the JSON file; for the main (all data), we don't have a lambda expression, which means show all data from the JSON file
 // same approach for speakers and topics
-
 app.MapGet("/sessions", () =>
 {
     var sessions = ReadSessionsFromFile("transformed_sessions.json");
