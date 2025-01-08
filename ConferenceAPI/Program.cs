@@ -119,7 +119,7 @@ app.MapGet("/topics", () =>
 //.WithName("GetSessions")
 //.WithOpenApi();
 
-app.MapGet("/topics/{id}", (string id) =>
+app.MapGet("/topic/{id}", (string id) =>
 {
     var topics = ReadTopicsFromFile("transformed_topics.json");
     return topics.Find(t => t.topicid == id);
