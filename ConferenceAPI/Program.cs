@@ -134,16 +134,16 @@ app.MapGet("/speakers", () =>
 });
 //.WithName("GetSpeakers")
 //.WithOpenApi();
-app.MapGet("/speaker/{id}", (string speakerID) =>
+app.MapGet("/speaker/{id}", (string id) =>
 {
     var speakers = ReadSpeakersFromFile("transformed_speakers.json");
-    return speakers.Find(sp => sp.speakerID == speakerID);
+    return speakers.Find(sp => sp.speakerID == id);
 });
 
 app.MapGet("/topics", () =>
 {
-    var sessions = ReadTopicsFromFile("transformed_topics.json");
-    return sessions;
+    var topics = ReadTopicsFromFile("transformed_topics.json");
+    return topics;
 });
 //.WithName("GetSessions")
 //.WithOpenApi();
