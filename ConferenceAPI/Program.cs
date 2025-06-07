@@ -20,8 +20,8 @@ builder.Services.AddSwaggerGen(options =>
         TermsOfService = new Uri("https://www.microsoft.com/en-us/legal/intellectualproperty/open-source?msockid=327fe0b7a40f63fb2f5cf43da587623a&oneroute=true"),
         Contact = new OpenApiContact
         {
-            Name = "Peter De Tender",
-            Url = new Uri("https://aka.ms/pdtit")
+            Name = "Todd Whitehead",
+            Url = new Uri("https://todd.dev")
         },
         License = new OpenApiLicense
         {

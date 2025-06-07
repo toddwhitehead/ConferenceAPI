@@ -1,0 +1,1636 @@
+[
+    {
+      "id": 1,
+      "dateTime": "Tuesday, May 20 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Microsoft Build opening keynote",
+      "description": "Satya Nadella and Microsoft leaders share how Microsoft is creating new opportunity across our platforms in this era of AI.",
+      "speakers": [
+        "Kevin Scott",
+        "Satya Nadella"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 2,
+      "dateTime": "Tuesday, May 20 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Azure AI Foundry: The AI app and Agent Factory",
+      "description": "Join Azure AI Foundry's flagship session. Learn how to supercharge your AI development with our integrated signals loop that connects model choice, knowledge retrieval, fine-tuning, orchestration and memory — anchored by observability and trust. Design, customize, and manage intelligent agents using open standards and protocols such as Model Context Protocol (MCP) and Agent-to-Agent (A2A) to connect with tools and drive collaboration. Gain insights into advanced orchestration, tracing, and monitoring to streamline decision-making, boost efficiency, accelerate time to market, and lower costs.",
+      "speakers": [
+        "Yina Arenas",
+        "Scott Hanselman"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 3,
+      "dateTime": "Tuesday, May 20 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Build agent-first solutions with Power Platform and Copilot Studio",
+      "description": "Join us on a journey to transform manual business processes to agent-led, human-supervised tasks using Copilot Studio and Power Apps. We'll use AI to define the business problem, map the processes, identify efficiency opportunities, and create a multi-asset solution including agents, apps, and automations. This approach combines no-code, low-code, and pro-code elements to speed up development and enhance creativity, reducing drudgery and delivering a working solution in record time.",
+      "speakers": [
+        "Ryan Cunningham",
+        "Evan Lew"
+      ],
+      "azureServices": [
+        "Power Platform",
+        "Copilot Studio",
+        "Power Apps"
+      ]
+    },
+    {
+      "id": 4,
+      "dateTime": "Tuesday, May 20 at 4:45 AM Australian Eastern Standard Time",
+      "title": "From legacy to cloud native: Accelerating Modernization at scale and AI",
+      "description": "Unlock the future of app development by transforming legacy systems into agile, cloud-native solutions. In this session, we discover how to accelerate app modernization at scale using GitHub Copilot and Azure’s App Modernization Guidance. Learn how developers can offload complex and time-consuming tasks to rapidly update, upgrade, and modernize Java and .NET applications with AI. Transform your legacy systems into cutting-edge solutions that drive performance.",
+      "speakers": [
+        "Mohammad Nofal",
+        "Bryce Hunt",
+        "Tinius Alexander Lystad",
+        "Michael YenChi Ho",
+        "Anoop Iyer"
+      ],
+      "azureServices": [
+        "Azure App Modernization Guidance"
+      ]
+    },
+    {
+      "id": 5,
+      "dateTime": "Tuesday, May 20 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Reimagining Software Development and DevOps with Agentic AI",
+      "description": "We are infusing Agentic AI into the entire Software Development Lifecycle—from brainstorming new ideas, implementing a plan, crafting new code, reviewing code, releasing software, to bringing insights back to the development team. See how GitHub Copilot is being reimagined through this entire lifecycle to boost productivity across teams.",
+      "speakers": [
+        "Mario Rodriguez",
+        "Amanda Silver"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 6,
+      "dateTime": "Tuesday, May 20 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Under the Hood: Optimizing Azure applications for performance and efficiency",
+      "description": "Discover how to develop cost-effective, scalable, and high-performance applications using the latest features and internal options available in Azure Compute services. We discuss different CPU architectures provided by Azure, application patterns optimized for Intel, AMD, or ARM64, and performance benchmarking tooling. We also dive into OS-level recommendations including host networking settings and storage options like Azure Boost SSD.",
+      "speakers": [
+        "Stefanie Lemon",
+        "Matt Reat",
+        "Max Uritsky"
+      ],
+      "azureServices": [
+        "Azure Compute",
+        "Azure Boost SSD"
+      ]
+    },
+    {
+      "id": 7,
+      "dateTime": "Tuesday, May 20 at 4:45 AM Australian Eastern Standard Time",
+      "title": "What's New in Microsoft Databases: Empowering AI-Driven App Dev",
+      "description": "Explore advanced applications powered by Microsoft databases on-premises, on Azure and in Microsoft Fabric. Join CVP Shireesh Thota to uncover innovative approaches to scalability with high-performance tuning and partitioning. Boost resiliency with HADR capabilities and security, and learn about intelligent data processing with AI-driven insights and agentic integrations. See new features with engaging demos in SQL Server, Azure SQL, Azure Cosmos DB, and Azure Database for PostgreSQL.",
+      "speakers": [
+        "Kirill Gavrylyuk",
+        "Priya Sathy",
+        "Genis Campa",
+        "Charles Feddersen",
+        "Arun Ulag",
+        "Shireesh Thota"
+      ],
+      "azureServices": [
+        "Azure SQL",
+        "Azure Cosmos DB",
+        "Azure Database for PostgreSQL"
+      ]
+    },
+    {
+      "id": 8,
+      "dateTime": "Tuesday, May 20 at 6:00 AM Australian Eastern Standard Time",
+      "title": "VS Code, Live!",
+      "description": "We're bringing VS Code, Live! for the first time ever, in person—and you’re on the guest list. Join us for a session filled with interactive demos, dev sneak peeks, and a behind-the-scenes look at all the latest announcements. No slides. Just code, conversation, and good vibes, plus a few surprises.",
+      "speakers": [
+        "Brigit Murtaugh",
+        "Jeff Wilcox",
+        "Burke Holland",
+        "Harald Kirschner",
+        "Christian Reddington",
+        "Pierce Boggan"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 9,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "An overview of Windows AI Foundry",
+      "description": "Whether you're starting out with AI development or looking to enhance your skills, learn more about Windows AI Foundry and its capabilities. This session covers an end-to-end build, customization, testing, and deployment of AI across client and cloud environments. Bring your own model with Windows ML or choose from a rich catalog of OSS models with Foundry Local.",
+      "speakers": [
+        "Dian Hartono",
+        "Tucker Burns"
+      ],
+      "azureServices": [
+        "Windows AI Foundry"
+      ]
+    },
+    {
+      "id": 10,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Data-intensive AI Training and Inferencing with Azure Blob Storage",
+      "description": "Discover how Azure Storage powers OpenAI and Microsoft AI model training and end-user applications through seamless access to exabytes of unstructured data. Learn how Azure’s AI ecosystem integrates with Blob Storage using advanced features and APIs, and leverage tools like blobfuse2 and AzCopy to optimize training, fine-tuning, and inference pipelines for performance and cost.",
+      "speakers": [
+        "Vishnu Charan TJ",
+        "Kyle Knapp"
+      ],
+      "azureServices": [
+        "Azure Blob Storage"
+      ]
+    },
+    {
+      "id": 11,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Design scalable data layers for multi-tenant apps with Azure Cosmos DB",
+      "description": "When building multi-tenant SaaS apps, developers must design for data isolation, scalability, and performance. Learn how Azure Cosmos DB delivers high performance and AI-readiness with features such as fleet management capabilities, materialized views, and global secondary indexes to deliver faster queries and resilient applications.",
+      "speakers": [
+        "Deborah Chen",
+        "Liz Nelson",
+        "Andrew Liu"
+      ],
+      "azureServices": [
+        "Azure Cosmos DB"
+      ]
+    },
+    {
+      "id": 12,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Develop, Build and Deploy LLM Apps using GitHub Models and Azure AI Foundry",
+      "description": "With new foundational models emerging weekly, this demo-packed session shows you how to rapidly experiment with and compare LLMs using GitHub Models. Learn to build application functionality and scale production deployments with Azure AI Foundry, giving you the tools to integrate the latest AI models into your business.",
+      "speakers": [
+        "Facundo Santiago",
+        "Martin Woodward"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 13,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Envision a secure, AI-accelerated developer experience with Docker",
+      "description": "Software development is rapidly evolving—from securing the software supply chain to building AI-driven applications. In this session, see how Docker is enhancing security and enabling advanced workflows for AI development through live demos that showcase secure delivery and streamlined AI integration.",
+      "speakers": [
+        "Toddy Mladenov",
+        "Tushar Jain",
+        "Michael Donovan"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 14,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Foundry Local: Building cutting-edge on-device AI experiences",
+      "description": "Build intelligent on‑device AI with Azure AI Foundry. Discover how seamless integration across CPU, GPU, and NPU—combined with the Azure AI Foundry Model catalog and inferencing APIs—delivers top performance and enhanced security for real-time processing, both locally and in the cloud.",
+      "speakers": [
+        "Meng Tang",
+        "Gaurave Sehgal",
+        "Raji Rajagopalan",
+        "Sai Elluri"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 15,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Microsoft Fabric for Developers: Build Scalable Data & AI Solutions",
+      "description": "Join Azure Data leadership to explore how developers can leverage Microsoft Fabric to build and scale integrated data and AI applications. Discover how this unified data platform brings together operational and analytical workloads through OneLake, enhanced CI/CD, and security workflows.",
+      "speakers": [
+        "Arun Ulag",
+        "Amir Netz"
+      ],
+      "azureServices": [
+        "Microsoft Fabric"
+      ]
+    },
+    {
+      "id": 16,
+      "dateTime": "Tuesday, May 20 at 6:30 AM Australian Eastern Standard Time",
+      "title": "What's new in Copilot Studio",
+      "description": "Join us for an in-depth look at building agents in Copilot Studio with a special focus on the latest innovations and upcoming enhancements in 2025. Discover improvements in knowledge capabilities, generative orchestration, and new testing and debugging tools that highlight how Copilot Studio delivers tangible value.",
+      "speakers": [
+        "Omar Aftab",
+        "Brian Hodel"
+      ],
+      "azureServices": [
+        "Copilot Studio"
+      ]
+    },
+    {
+      "id": 17,
+      "dateTime": "Tuesday, May 20 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Azure AI Foundry Agent Service: Transform agentic workflows",
+      "description": "Faster, better, and at lower cost – discover how Azure AI Foundry Agent Service, integrated into Azure AI Foundry’s continuous signals loop, can revolutionize your business processes by enabling low latency, high scalability, and enterprise-grade AI agent management.",
+      "speakers": [
+        "Yina Arenas",
+        "Mads Bolaris"
+      ],
+      "azureServices": [
+        "Azure AI Foundry Agent Service"
+      ]
+    },
+    {
+      "id": 18,
+      "dateTime": "Tuesday, May 20 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Better Microservices Development using Azure Container Apps",
+      "description": "Life is hard. Building microservices doesn't have to be. In this code-focused talk, learn how to build and maintain distributed Container Apps with less time, effort, and pain. Watch live fixes for performance issues and discover insights into open-source tools like KEDA while exploring the capabilities of Azure Container Apps.",
+      "speakers": [
+        "Simon Jakesch",
+        "Ezequiel Jadib",
+        "Sneha Parthasarathy"
+      ],
+      "azureServices": [
+        "Azure Container Apps"
+      ]
+    },
+    {
+      "id": 19,
+      "dateTime": "Tuesday, May 20 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Build and scale your AI apps with Kubernetes and Azure Arc",
+      "description": "Discover how Developer and DevOps teams can leverage unified tools and Azure services to build AI apps and deploy them on Kubernetes across distributed infrastructure. Learn how centralized app and infrastructure management drives continuous improvement and operational excellence.",
+      "speakers": [
+        "Kiana Harris",
+        "Adam DePue",
+        "Brendan Burns"
+      ],
+      "azureServices": [
+        "Azure Arc"
+      ]
+    },
+    {
+      "id": 20,
+      "dateTime": "Tuesday, May 20 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Deploying an end-to-end secure AI application",
+      "description": "Security can be challenging even at the best of times—especially when it isn’t your full-time job. This session walks you through the end-to-end deployment of a secure AI application, covering identities, virtual networks (VNETs), network security groups (NSGs), key vaults, prompt shields, and data labelling.",
+      "speakers": [
+        "Pamela Fox",
+        "Sarah Young"
+      ],
+      "azureServices": [
+        "Azure VNET",
+        "Azure NSG",
+        "Azure Key Vault"
+      ]
+    },
+    {
+      "id": 21,
+      "dateTime": "Wednesday, May 21 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Unpacking the tech",
+      "description": "Jay Parikh, Charles Lamanna, Scott Guthrie and friends will dig deeper into the news announced on Day 1, with a focus on the role developers play in helping enterprises successfully embrace AI and digital transformation, the latest in Copilot, Azure, GitHub, and Windows AI innovations, and the significance of trust, security, and governance in all we do.",
+      "speakers": [
+        "Charles Lamanna",
+        "Scott Guthrie",
+        "Jay Parikh"
+      ],
+      "azureServices": [
+        "Azure",
+        "GitHub",
+        "Windows AI"
+      ]
+    },
+    {
+      "id": 22,
+      "dateTime": "Wednesday, May 21 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Architecting your multi agent solutions with Copilot Studio and M365 Agents SDK",
+      "description": "Multi-agent systems don’t need to be hard. In this session you will learn how to build and deploy your connected agents whether it's through Copilot Studio, Azure AI Foundry (Azure AI Agents) or Microsoft 365 Agents SDK using C#. Connecting agents, connecting data, and enabling transformational scenarios is what we’re all about.",
+      "speakers": [
+        "Gary Pretty",
+        "Salem Bacha"
+      ],
+      "azureServices": [
+        "Copilot Studio",
+        "Azure AI Foundry",
+        "Microsoft 365 Agents SDK"
+      ]
+    },
+    {
+      "id": 23,
+      "dateTime": "Wednesday, May 21 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Boost your app's reach and engagement with AI via App Actions on Windows",
+      "description": "Unlock your app’s full potential with AI via App Actions on Windows! Learn how to register your app’s Actions to boost visibility and traffic and enhance user experiences by integrating rich actions from the Windows catalog.",
+      "speakers": [
+        "Premalini David",
+        "Sasha Sproch"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 24,
+      "dateTime": "Wednesday, May 21 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Building advanced agentic apps with PostgreSQL on Azure",
+      "description": "What benefits do agentic architectures bring compared to traditional RAG patterns? In this session we explore advanced agentic capabilities offered by popular GenAI frameworks on top of Azure Database for PostgreSQL, along with enhancements like vector search acceleration via DiskANN and Semantic Ranking.",
+      "speakers": [],
+      "azureServices": [
+        "Azure Database for PostgreSQL"
+      ]
+    },
+    {
+      "id": 25,
+      "dateTime": "Wednesday, May 21 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Building real solutions with Real-Time Intelligence in Fabric",
+      "description": "Today’s solutions are only as accurate and up to date as the data that powers them. Real-Time Intelligence in Microsoft Fabric leverages high-granularity data from connected systems to build real-time solutions using tools like Digital Twin Builder.",
+      "speakers": [
+        "Karl O'Hanlon",
+        "Chafia Aouissi",
+        "Youngchoon Park",
+        "Tessa Kloster",
+        "Yitzhak Kesselman"
+      ],
+      "azureServices": [
+        "Microsoft Fabric"
+      ]
+    },
+    {
+      "id": 26,
+      "dateTime": "Wednesday, May 21 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Developer essentials for agents and apps in Azure AI Foundry",
+      "description": "Turn your AI ideas into production-ready solutions using a unified toolkit that seamlessly integrates Azure AI Foundry with VS Code, GitHub, and Copilot Studio. Experience faster development cycles with fewer bugs as you design and deploy intelligent apps.",
+      "speakers": [
+        "Yina Arenas",
+        "Paul Shealy"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 27,
+      "dateTime": "Wednesday, May 21 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Solving the Unsolvable: Advanced Agentic AI Models in Azure AI Foundry",
+      "description": "What if AI could go beyond prediction—and truly reason and act? Explore next-gen models such as OpenAI’s o1 and o3 mini, computer-use agents, DeepSeek R1 and V3 in Azure AI Foundry. Learn how these models tackle complex, multi-step problems using techniques like chain-of-thought prompting.",
+      "speakers": [
+        "Jennifer Marsman",
+        "Marco Casalaina"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 28,
+      "dateTime": "Wednesday, May 21 at 4:45 AM Australian Eastern Standard Time",
+      "title": "Using the new App Service Premium v4 to build, deploy & scale web apps",
+      "description": "Join us to learn what's new in Azure App Service Premium v4. Discover how to run a local SLM in a sidecar container, invoke an OpenAPI App Service web app via integration with Azure AI Agent Service, and employ best practices with ARM/Bicep templates.",
+      "speakers": [
+        "Jordan Selig",
+        "Byron Tardif"
+      ],
+      "azureServices": [
+        "Azure App Service Premium v4",
+        "Azure AI Agent Service"
+      ]
+    },
+    {
+      "id": 29,
+      "dateTime": "Wednesday, May 21 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Accelerating AI Startups: Build, Scale, and Go to Market",
+      "description": "AI startups face challenges scaling and securing funding while deploying AI solutions. Hear from industry experts on utilizing Azure and Azure AI Foundry to overcome these challenges, optimize workflows, and navigate venture opportunities.",
+      "speakers": [
+        "Asha Sharma",
+        "Annie Pearl",
+        "Yair Adato",
+        "Ross Kennedy",
+        "Vitaly Gordon",
+        "Brendan Burns",
+        "Michael Stewart"
+      ],
+      "azureServices": [
+        "Azure",
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 30,
+      "dateTime": "Wednesday, May 21 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Building Effective Agents with Microsoft 365 Copilot",
+      "description": "Learn about the enterprise opportunity using the Agent Platform for Microsoft 365 Copilot. Discover the latest features for building agents via Agent Builder and how internal and customer examples illustrate transformative business outcomes.",
+      "speakers": [
+        "Gladys Kenfack",
+        "Christopher Whitten",
+        "Dan Eversmeyer"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 31,
+      "dateTime": "Wednesday, May 21 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Copilot Studio Agents & Azure AI Foundry: better together",
+      "description": "Learn how to build agents in Copilot Studio with deep integration into Azure AI Foundry services. Leverage vectorized indices from Azure AI Search to perform retrieval-augmented generation and integrate over 1800 models from the Azure model catalog.",
+      "speakers": [
+        "Chris Mullins",
+        "Uri Avron",
+        "Mads Bolaris",
+        "Praveen Rajaram"
+      ],
+      "azureServices": [
+        "Copilot Studio",
+        "Azure AI Foundry",
+        "Azure AI Search"
+      ]
+    },
+    {
+      "id": 32,
+      "dateTime": "Wednesday, May 21 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Inside Azure innovations with Mark Russinovich",
+      "description": "Join Mark Russinovich, CTO and Deputy CISO of Microsoft Azure, as he takes you on a tour of the latest innovations in Azure architecture and explains how Azure enables intelligent, modern, and scalable applications at the edge and in the cloud.",
+      "speakers": [
+        "Mark Russinovich"
+      ],
+      "azureServices": [
+        "Azure"
+      ]
+    },
+    {
+      "id": 33,
+      "dateTime": "Wednesday, May 21 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Secure and scale your AI APIs with Azure API Management",
+      "description": "Learn how AI gateway capabilities in Azure API Management help secure, govern, and optimize AI workloads by providing model protection, prompt filtering, request mediation, and cost control.",
+      "speakers": [
+        "Alex Vieira",
+        "Julia Kasper"
+      ],
+      "azureServices": [
+        "Azure API Management"
+      ]
+    },
+    {
+      "id": 34,
+      "dateTime": "Wednesday, May 21 at 6:30 AM Australian Eastern Standard Time",
+      "title": "SQL Server 2025: The Database Developer Reimagined",
+      "description": "Discover how SQL Server 2025 redefines the database developer experience with new features such as vector search with AI models, a JSON type and index, RegEx enhancements, Change Event Streaming, and built-in REST API support, all deployable on multiple platforms.",
+      "speakers": [
+        "Muazma Zahid",
+        "Bob Ward"
+      ],
+      "azureServices": [
+        "SQL Server 2025"
+      ]
+    },
+    {
+      "id": 35,
+      "dateTime": "Wednesday, May 21 at 6:30 AM Australian Eastern Standard Time",
+      "title": "Unleash on-device AI with Snapdragon X Series",
+      "description": "Explore how Qualcomm is enabling a software ecosystem that helps AI developers easily target Snapdragon X Series. Learn about the partnership with Microsoft that delivers scalable and performant AI runtimes for on-device inference.",
+      "speakers": [
+        "Manish Sirdeshmukh",
+        "Devang Aggarwal",
+        "Eli Aleyner"
+      ],
+      "azureServices": [
+        "Azure"
+      ]
+    },
+    {
+      "id": 36,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Building Secure AI Agents with Microsoft Entra External ID",
+      "description": "Learn how to build AI Agents for external-facing apps using the OpenAI SDK with Assistants and Function Calling for APIs secured by Microsoft Entra External ID, ensuring adherence to Zero Trust principles.",
+      "speakers": [
+        "Fabian Alves"
+      ],
+      "azureServices": [
+        "Microsoft Entra External ID"
+      ]
+    },
+    {
+      "id": 37,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Building the digital workforce: Multi-agent apps with Azure AI Foundry",
+      "description": "Design a digital workforce that automates complex tasks and accelerates decision-making with Azure AI Foundry Agent Service, Semantic Kernel, and AutoGen. Develop multi-agent applications that collaborate like human teams to deliver speed, precision, and efficiency.",
+      "speakers": [
+        "Shawn Henry",
+        "Amit Sethi",
+        "Salman Quazi",
+        "John Damalas"
+      ],
+      "azureServices": [
+        "Azure AI Foundry",
+        "Azure AI Agent Service"
+      ]
+    },
+    {
+      "id": 38,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Enable seamless deployment across Intel Copilot+ AI PCs and Azure",
+      "description": "Explore how Intel drives AI innovation from PC to data center, enabling seamless deployment across Windows Copilot+ AI PCs and Azure. Learn how Intel’s AI stack, with features like Quick Assist and ReFS compression, accelerates workflows on both endpoints and in the cloud.",
+      "speakers": [
+        "Freddy Chiu",
+        "Guy Boudoukh",
+        "Lucy Lu",
+        "Nuri Cankaya"
+      ],
+      "azureServices": [
+        "Azure"
+      ]
+    },
+    {
+      "id": 39,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Fastest & easiest way to integrate AI using Windows AI APIs",
+      "description": "Learn how to leverage on-device machine learning models to elevate your AI experience by fine-tuning Windows ML with custom data, and building innovative capabilities like Semantic Search and Knowledge Retrieval using Windows AI APIs.",
+      "speakers": [
+        "Rahul Amlekar",
+        "Lei Xu"
+      ],
+      "azureServices": [
+        "Windows AI APIs"
+      ]
+    },
+    {
+      "id": 40,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Fine-tuning and distillation with Azure AI Foundry",
+      "description": "Enhance your AI models using advanced fine‑tuning and distillation techniques such as Direct Preference Optimization (DPO) and Reward Fine-Tuning (RFT) within Azure OpenAI, optimizing performance while reducing data requirements and costs.",
+      "speakers": [
+        "Alicia Frame",
+        "Sri Gadde",
+        "Omkar More"
+      ],
+      "azureServices": [
+        "Azure OpenAI",
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 41,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "GitHub Copilot for Skeptics Who Still Think AI is Overrated",
+      "description": "You've had just about enough of all this talk about AI for developers. It feels like a lot of hype, but the magic of AI for developers is very real. This session provides practical tips and tricks to unlock GitHub Copilot’s full potential.",
+      "speakers": [
+        "Damian Brady",
+        "Burke Holland"
+      ],
+      "azureServices": [
+        "GitHub Copilot"
+      ]
+    },
+    {
+      "id": 42,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "Streamlining AKS Debugging: Techniques to solve common & complex problems",
+      "description": "Learn to troubleshoot common and complex issues in AKS, such as solving DNS issues, determining processes consuming high CPU and memory, and resolving tricky network security-related problems with open-source tools.",
+      "speakers": [
+        "Juan-Lee Pang",
+        "Aritra Ghosh",
+        "Jose Blanquicet"
+      ],
+      "azureServices": [
+        "Azure Kubernetes Service (AKS)"
+      ]
+    },
+    {
+      "id": 43,
+      "dateTime": "Wednesday, May 21 at 8:00 AM Australian Eastern Standard Time",
+      "title": "The Future of .NET App Modernization Streamlined with AI",
+      "description": "Discover how GitHub Copilot Upgrade for .NET simplifies modernization of .NET apps directly from Visual Studio, with project analysis, automatic dependency management, and AI-assisted self-healing.",
+      "speakers": [
+        "Chester Husk",
+        "Scott Hunter"
+      ],
+      "azureServices": [
+        "GitHub Copilot",
+        ".NET"
+      ]
+    },
+    {
+      "id": 44,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "Best practices for building agentic apps with Azure AI Foundry",
+      "description": "Master proven strategies for designing, coding, and deploying agentic applications that minimize errors, reduce development costs, and ensure scalable AI performance.",
+      "speakers": [
+        "Elijah Straight",
+        "Seth Juarez",
+        "Amanda Foster"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 45,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "Build Microsoft Teams collaborative agents as virtual colleagues with Visual Studio Code",
+      "description": "Explore how collaborative agents enhance teamwork in Microsoft Teams channels, meetings, and chats, actively driving productivity and creativity.",
+      "speakers": [
+        "Vikramjit Singh Chug",
+        "Gino Buzzelli"
+      ],
+      "azureServices": [
+        "Microsoft Teams",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "id": 46,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "Building secure agents with Azure AI Foundry and Microsoft Security",
+      "description": "Discover new tools and best practices for deploying more secure, trustworthy GenAI applications, covering AI evaluations, threat modeling, and security controls.",
+      "speakers": [
+        "Sarah Bird",
+        "Mehrnoosh Sameki",
+        "Neta Haiby"
+      ],
+      "azureServices": [
+        "Azure AI Foundry",
+        "Microsoft Security"
+      ]
+    },
+    {
+      "id": 47,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "GenAI for Enterprise: Intelligent Apps and Agents with Dataverse & MCP",
+      "description": "See how Dataverse serves as an agent-ready database that unifies data from enterprise systems with built-in vector indexing, supporting MCP for connected agent experiences.",
+      "speakers": [
+        "James Oleinik",
+        "Nirav Shah"
+      ],
+      "azureServices": [
+        "Dataverse",
+        "Model Context Protocol (MCP)"
+      ]
+    },
+    {
+      "id": 48,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "Orchestrate E2E automation and build adaptive AI agents with UiPath",
+      "description": "Discover how UiPath Maestro orchestrates AI agents, robots, and people for seamless automation, integrating with Microsoft Copilot Studio and LangChain agents.",
+      "speakers": [
+        "Evan Cohen",
+        "Ramnath Natarajan",
+        "Masaki Kumamoto"
+      ],
+      "azureServices": [
+        "Copilot Studio"
+      ]
+    },
+    {
+      "id": 49,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "Python Meets .NET: Building AI Solutions with Combined Strengths",
+      "description": "Explore how Python and .NET can be combined to build AI-powered applications, leveraging the best of both ecosystems.",
+      "speakers": [
+        "Scott Hanselman",
+        "Anthony Shaw"
+      ],
+      "azureServices": [
+        ".NET",
+        "Azure AI"
+      ]
+    },
+    {
+      "id": 50,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "Shift Left: Secure Your Code and AI from the Start",
+      "description": "Discover how to swiftly deliver intelligent applications while maintaining security, using AI-driven threat modeling and developer-focused security tools.",
+      "speakers": [
+        "Mark Russinovich",
+        "Neil Coles",
+        "Marcelo Oliveira"
+      ],
+      "azureServices": [
+        "GitHub Copilot",
+        "Azure Security"
+      ]
+    },
+    {
+      "id": 51,
+      "dateTime": "Wednesday, May 21 at 9:30 AM Australian Eastern Standard Time",
+      "title": "What's Coming in Fabric Automation and CI/CD",
+      "description": "Explore the latest updates in Fabric APIs, automation tools, and CI/CD enhancements, including new Terraform provider support.",
+      "speakers": [
+        "Jacob Knightley",
+        "Ali Hamud"
+      ],
+      "azureServices": [
+        "Microsoft Fabric"
+      ]
+    },
+    {
+      "id": 52,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Accelerating Scientific Discovery with HPC, AI, and Quantum Computing",
+      "description": "Learn how HPC, AI, and Quantum Computing are transforming scientific research and enabling solutions to complex global challenges.",
+      "speakers": [
+        "John Link",
+        "Alexis Mills"
+      ],
+      "azureServices": [
+        "Azure HPC",
+        "Azure Quantum"
+      ]
+    },
+    {
+      "id": 53,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Collaborate with a team of agents to build intelligent solutions",
+      "description": "Learn how Microsoft Power Platform enables agent collaboration throughout the development lifecycle, accelerating generative and intelligent solution-building.",
+      "speakers": [
+        "Clay Wesener",
+        "Marc Schweigert"
+      ],
+      "azureServices": [
+        "Power Platform"
+      ]
+    },
+    {
+      "id": 54,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Create agents for Microsoft 365 Copilot with Microsoft 365 Agents SDK",
+      "description": "Learn how to build agents using Microsoft 365 Agents SDK, with custom orchestration and foundation models designed for multiple channels.",
+      "speakers": [
+        "Gaurave Sehgal",
+        "Renil Abdulkader",
+        "Matthew Barbour",
+        "Sarah C"
+      ],
+      "azureServices": [
+        "Microsoft 365 Copilot",
+        "Microsoft 365 Agents SDK"
+      ]
+    },
+    {
+      "id": 55,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Improving App Health with Health Modeling and Chaos Engineering",
+      "description": "Explore real-world scenarios in reliability engineering using Azure Monitor Health Models, Chaos Studio experiments, and structured health modeling.",
+      "speakers": [
+        "Richa Thakur",
+        "Martin Simecek",
+        "Shabala Natarajan"
+      ],
+      "azureServices": [
+        "Azure Monitor",
+        "Azure Chaos Studio"
+      ]
+    },
+    {
+      "id": 56,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Inside Azure AI Foundry Labs: Experimenting with the Future of AI",
+      "description": "Discover how Azure AI Foundry Labs allows developers, startups, and enterprises to experiment with Microsoft's latest AI research before general availability.",
+      "speakers": [
+        "Shannon Monroe",
+        "Ece Kamar",
+        "Vaidyaraman Sambasivam",
+        "Ashley Llorens"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 57,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Making Azure DevOps and GitHub Greater than the Sum of their Parts",
+      "description": "Discover how new integrations between Azure DevOps and GitHub simplify workflows, making GitHub Copilot context-aware of Azure DevOps through the new MCP server.",
+      "speakers": [
+        "DaveOps Burnison",
+        "Dan Hellem"
+      ],
+      "azureServices": [
+        "Azure DevOps",
+        "GitHub Copilot",
+        "Model Context Protocol (MCP)"
+      ]
+    },
+    {
+      "id": 58,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Scale and secure MongoDB-compatible apps with Azure Cosmos DB",
+      "description": "Learn how to migrate MongoDB workloads to Azure with zero downtime while enhancing security, scalability, and real-time sync via change data capture.",
+      "speakers": [
+        "Khelan Modi",
+        "Patty Chow",
+        "Hari Krishna Sunder",
+        "Rohan Thomas"
+      ],
+      "azureServices": [
+        "Azure Cosmos DB for MongoDB"
+      ]
+    },
+    {
+      "id": 59,
+      "dateTime": "Thursday, May 22 at 2:00 AM Australian Eastern Standard Time",
+      "title": "Under the hood and into the magic of GitHub Copilot",
+      "description": "Join the GitHub Copilot team to explore how Copilot adapts to the evolving AI development landscape, including new models and patterns.",
+      "speakers": [
+        "Christopher Harrison",
+        "Christina Entcheva"
+      ],
+      "azureServices": [
+        "GitHub Copilot"
+      ]
+    },
+    {
+      "id": 60,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Beyond the Game: How AI and Data Are Powering the Future of Sports",
+      "description": "See how AI and Azure Data are transforming sports analytics, enabling real-time insights for coaches, athletes, and teams.",
+      "speakers": [
+        "Andy Beatman",
+        "Johnny Halife",
+        "Jared Chavez",
+        "James Codella, PhD"
+      ],
+      "azureServices": [
+        "Azure AI",
+        "Azure Data"
+      ]
+    },
+    {
+      "id": 61,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Boost your app’s search: using Azure LLM functions with Elasticsearch",
+      "description": "Integrate intelligent query rewriting, summarization, and scoring with Azure LLM functions in Elasticsearch for smarter search capabilities.",
+      "speakers": [
+        "Mike Richter",
+        "Rohit Tatachar",
+        "James Williams"
+      ],
+      "azureServices": [
+        "Azure AI"
+      ]
+    },
+    {
+      "id": 62,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Build AI apps and unlock the power of your data with Azure Databricks",
+      "description": "Learn how to deploy AI agents that reason over structured and unstructured data using Anthropic Claude 3.7 Sonnet in Azure Databricks.",
+      "speakers": [
+        "Anavi Nahar",
+        "David Meyer"
+      ],
+      "azureServices": [
+        "Azure Databricks"
+      ]
+    },
+    {
+      "id": 63,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Building secure AI Agents with Azure Functions",
+      "description": "Explore how durable functions, Logic Apps, LangChain, Semantic Kernel, and Azure Cosmos DB for vector storage enhance agentic AI security and automation.",
+      "speakers": [
+        "Eamon O'Reilly",
+        "Ahmed Mansour",
+        "Pim Zandee"
+      ],
+      "azureServices": [
+        "Azure Functions",
+        "Azure Logic Apps",
+        "Azure Cosmos DB",
+        "Semantic Kernel"
+      ]
+    },
+    {
+      "id": 64,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Building Secure Business Apps: Best Practices for Design to Deployment",
+      "description": "Discover best practices for securing and deploying business applications within Power Platform while ensuring responsible AI implementation with Purview and Copilot.",
+      "speakers": [
+        "Muhammad Aurangzeb"
+      ],
+      "azureServices": [
+        "Power Platform",
+        "Microsoft Purview",
+        "Copilot Studio"
+      ]
+    },
+    {
+      "id": 65,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Lessons: Deploying Copilot Studio in enterprise software environments",
+      "description": "Gain insights into Copilot Studio deployment, monitoring, and maintenance for large-scale, customer-facing applications with multiple development teams.",
+      "speakers": [
+        "Bas Brekelmans",
+        "Andrew Coates",
+        "Shashank Verma"
+      ],
+      "azureServices": [
+        "Copilot Studio"
+      ]
+    },
+    {
+      "id": 66,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Maximizing efficiency in cloud-native app design",
+      "description": "Learn how Azure Container Apps enables dynamic, serverless pricing for cloud-native applications while scaling efficiently with KEDA and AKS Automatic.",
+      "speakers": [
+        "Kaysie Yu",
+        "Sean McKenna"
+      ],
+      "azureServices": [
+        "Azure Container Apps",
+        "Azure Kubernetes Service (AKS)",
+        "KEDA"
+      ]
+    },
+    {
+      "id": 75,
+      "dateTime": "Thursday, May 22 at 3:30 AM Australian Eastern Standard Time",
+      "title": "Use VS Code to build AI apps and agents",
+      "description": "Learn how to explore different models, iterate on prompts, run evaluations, and build and deploy agents within VS Code using AI Toolkit and Azure AI Foundry.",
+      "speakers": [
+        "Rong Lu",
+        "Lori Fraleigh"
+      ],
+      "azureServices": [
+        "Visual Studio Code",
+        "Azure AI Foundry",
+        "Azure SDK"
+      ]
+    },
+    {
+      "id": 76,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "Accelerate Azure Development with GitHub Copilot, VS Code & AI",
+      "description": "Learn how GitHub Copilot for Azure, Azure Developer CLI (azd), and VS Code streamline app creation, deployment, troubleshooting, and cost optimization.",
+      "speakers": [
+        "Mandy Whaley",
+        "Shayne Boyer"
+      ],
+      "azureServices": [
+        "GitHub Copilot",
+        "Azure Developer CLI (azd)",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "id": 77,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "Agentic RAG: Build a reasoning retrieval engine with Azure AI Search",
+      "description": "Transform simple search into an advanced reasoning retrieval engine with agentic methods such as memory, query planning, and reasoning models.",
+      "speakers": [
+        "Vinod Valloppillil",
+        "Pamela Fox",
+        "Matthew Gotteiner"
+      ],
+      "azureServices": [
+        "Azure AI Search"
+      ]
+    },
+    {
+      "id": 78,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "AI and Agent Observability in Azure AI Foundry and Azure Monitor",
+      "description": "Learn how evaluation and continuous monitoring help iterate quickly and move AI agents from pilot to production using Azure AI Foundry and Azure Monitor.",
+      "speakers": [
+        "Akanksha Kumari",
+        "Mehrnoosh Sameki",
+        "Justin Layne Hofer",
+        "Sebastian Kohlmeier"
+      ],
+      "azureServices": [
+        "Azure AI Foundry",
+        "Azure Monitor"
+      ]
+    },
+    {
+      "id": 79,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "Fine-tune models for task-specific agents in Microsoft 365 Copilot",
+      "description": "Learn how to customize and fine-tune declarative agents for Microsoft 365 Copilot using Copilot Studio, automated data ingestion, and evaluation.",
+      "speakers": [
+        "Kalyan Ayloo",
+        "Khushboo Aggarwal",
+        "Ranveer Chandra"
+      ],
+      "azureServices": [
+        "Microsoft 365 Copilot",
+        "Copilot Studio"
+      ]
+    },
+    {
+      "id": 80,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "Get faster AI agent responses and low app latency with Azure Managed Redis",
+      "description": "Learn how Azure Managed Redis improves AI application performance, enhances caching, and provides the latest .NET abstractions for boosting speed.",
+      "speakers": [
+        "Benjamin Renaud",
+        "Slava Koltovich",
+        "Shruti Pathak"
+      ],
+      "azureServices": [
+        "Azure Managed Redis"
+      ]
+    },
+    {
+      "id": 81,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "Java App Modernization Simplified with AI",
+      "description": "Learn how AI-driven tools simplify Java app modernization, from assessment to deployment, embedding intelligence via Spring AI and LangChain4j.",
+      "speakers": [
+        "Julien Dubois",
+        "Timothy Ng"
+      ],
+      "azureServices": [
+        "Azure Spring Apps",
+        "Azure AI"
+      ]
+    },
+    {
+      "id": 82,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "Top GitHub Copilot features you missed in Visual Studio 2022",
+      "description": "Explore the latest GitHub Copilot features in Visual Studio 2022 that streamline workflows, optimize productivity, and enhance development efficiency.",
+      "speakers": [
+        "Rhea Patel",
+        "Simona Liao",
+        "Filisha Shah"
+      ],
+      "azureServices": [
+        "GitHub Copilot",
+        "Visual Studio 2022"
+      ]
+    },
+    {
+      "id": 83,
+      "dateTime": "Thursday, May 22 at 5:30 AM Australian Eastern Standard Time",
+      "title": "Unleashing price-performance: Cobalt 100 and the future of cloud-native on Arm",
+      "description": "Discover how Arm and Microsoft are delivering breakthrough price-performance with Cobalt 100 VMs on Azure, including AKS on Arm.",
+      "speakers": [
+        "Richard Murillo",
+        "Bhumik Patel",
+        "Amar Dhamdhere"
+      ],
+      "azureServices": [
+        "Azure Cobalt 100",
+        "Azure Kubernetes Service (AKS)"
+      ]
+    },
+    {
+      "id": 84,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Elevating Development with .NET Aspire: AI, Cloud, and Beyond",
+      "description": "Explore how .NET Aspire integrates AI, enhances workflows, and streamlines cloud-native application development.",
+      "speakers": [
+        "Maddy Montaquila",
+        "David Fowler",
+        "Damian Edwards"
+      ],
+      "azureServices": [
+        ".NET Aspire"
+      ]
+    },
+    {
+      "id": 85,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Enable Agentic AI Apps with a Unified Data Estate in Microsoft Fabric",
+      "description": "Discover how Microsoft Fabric unifies operational and analytical data estates to power custom AI applications.",
+      "speakers": [
+        "Anitha Adusumilli",
+        "Bob Ward"
+      ],
+      "azureServices": [
+        "Microsoft Fabric"
+      ]
+    },
+    {
+      "id": 86,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Enhancing Agent Management Controls for AI-Ready Enterprises",
+      "description": "Explore security, governance, and operational best practices for managing AI agents in enterprises.",
+      "speakers": [
+        "Ryan Jones",
+        "Shawn Nandi"
+      ],
+      "azureServices": [
+        "Azure AI Foundry",
+        "Microsoft Security"
+      ]
+    },
+    {
+      "id": 87,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Extend your Copilot Agent in Power Apps with Copilot Studio and new SDKs",
+      "description": "Learn how to extend Copilot in Power Apps using Copilot Studio, new connectors, and JavaScript APIs.",
+      "speakers": [
+        "Scott Durow",
+        "Hemant Gaur"
+      ],
+      "azureServices": [
+        "Power Apps",
+        "Copilot Studio"
+      ]
+    },
+    {
+      "id": 88,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Hands-on with GitHub in the Enterprise",
+      "description": "Learn how enterprises successfully deploy software at scale using GitHub, integrating with Entra and maintaining full traceability.",
+      "speakers": [
+        "Ben De St Paer-Gotch",
+        "Jessica Deen"
+      ],
+      "azureServices": [
+        "GitHub Enterprise",
+        "Microsoft Entra"
+      ]
+    },
+    {
+      "id": 89,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Reasoning on multimodal content for efficient agentic AI app building",
+      "description": "Explore how Azure AI Content Understanding enhances multimodal data processing, enabling efficient AI workflows.",
+      "speakers": [
+        "Ronak Chokshi",
+        "Tobias Fengler",
+        "Vinod Kurpad",
+        "Feras Siam"
+      ],
+      "azureServices": [
+        "Azure AI Content Understanding"
+      ]
+    },
+    {
+      "id": 95,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Running Stateful Workloads on AKS",
+      "description": "Learn how Azure Container Storage, CSI drivers, and best practices can optimize storage choices for databases, messaging, caching, and AI workloads on AKS.",
+      "speakers": [
+        "Francis Yu",
+        "Yuemin Lu"
+      ],
+      "azureServices": [
+        "Azure Kubernetes Service (AKS)",
+        "Azure Container Storage"
+      ]
+    },
+    {
+      "id": 96,
+      "dateTime": "Thursday, May 22 at 7:00 AM Australian Eastern Standard Time",
+      "title": "Secure Next-Gen AI Apps with Azure Container Apps Serverless GPUs",
+      "description": "Explore how serverless GPUs accelerate AI inferencing, enabling powerful AI capabilities without infrastructure complexity.",
+      "speakers": [
+        "Cary Chai",
+        "Alexander Spiridonov",
+        "Vyom Nagrani"
+      ],
+      "azureServices": [
+        "Azure Container Apps",
+        "Serverless GPUs"
+      ]
+    },
+    {
+      "id": 97,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Add more knowledge to Microsoft 365 Copilot with Copilot connectors and actions",
+      "description": "Enhance Microsoft 365 Copilot’s knowledge base by integrating third-party data sources and Copilot connectors for richer agent capabilities.",
+      "speakers": [
+        "Rachit Kumar Malik",
+        "Sébastien Levert",
+        "Eran Aloni"
+      ],
+      "azureServices": [
+        "Microsoft 365 Copilot",
+        "Copilot Connectors"
+      ]
+    },
+    {
+      "id": 98,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Architecting highly resilient applications in Azure: A technical guide for developers",
+      "description": "Learn how to design zero-downtime, zero-data-loss applications using resilience patterns like Active-Active replication, Saga transactions, and Global Secondary Indexing.",
+      "speakers": [
+        "Kirill Gavrylyuk",
+        "Justine Cocchi"
+      ],
+      "azureServices": [
+        "Azure Kubernetes Service (AKS)",
+        "Azure Cosmos DB",
+        "Azure Resilience Patterns"
+      ]
+    },
+    {
+      "id": 99,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Boost your development productivity with Windows latest tools and tips",
+      "description": "Discover updates to PowerToys, Windows Terminal, Windows Subsystem for Linux, WinGet, and other tools for streamlining development workflows.",
+      "speakers": [
+        "Kayla Cinnamon",
+        "Craig Loewen",
+        "Larry Osterman"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 100,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Earth's Defense with Hera: AI Agents Battle Planet Extinction Threats",
+      "description": "See how Azure AI powers planetary defense missions by analyzing impact telemetry, engaging audiences, and providing real-time insights.",
+      "speakers": [
+        "Justin Bercich",
+        "Vyom Nagrani"
+      ],
+      "azureServices": [
+        "Azure AI"
+      ]
+    },
+    {
+      "id": 101,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Optimize your GenAI applications at scale in Azure AI Foundry",
+      "description": "Learn how Azure AI Foundry models ensure optimal performance in GenAI applications through deployment strategies, observability enhancements, and production readiness.",
+      "speakers": [
+        "Sidd Shah",
+        "Saloni Sonpal",
+        "Steve Sweetman",
+        "Sethu Raman",
+        "Christopher Schubert"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 102,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Skip the YAML! Easily deploy apps to AKS with Automated Deployments",
+      "description": "Experience an end-to-end developer workflow that streamlines containerized application deployment via AKS, eliminating the need for complex YAML.",
+      "speakers": [
+        "Quentin Petraroia",
+        "Ahmed Sabbour"
+      ],
+      "azureServices": [
+        "Azure Kubernetes Service (AKS)"
+      ]
+    },
+    {
+      "id": 103,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Transform your agentic apps with voice in Foundry",
+      "description": "Discover Azure AI Foundry’s voice API, enabling developers to integrate speech-to-text, text-to-speech, noise suppression, and real-time AI conversations into their apps.",
+      "speakers": [
+        "Dong Li",
+        "Hasya Shah",
+        "Prem Parameswaran",
+        "Gerald Ertl"
+      ],
+      "azureServices": [
+        "Azure AI Foundry",
+        "Azure AI Speech"
+      ]
+    },
+    {
+      "id": 104,
+      "dateTime": "Thursday, May 22 at 8:30 AM Australian Eastern Standard Time",
+      "title": "Yet 'Another Highly Technical Talk' with Hanselman and Toub",
+      "description": "Join Scott Hanselman and Stephen Toub for a live debugging session with zero slides—just code, optimization, and performance improvements.",
+      "speakers": [
+        "Stephen Toub",
+        "Scott Hanselman"
+      ],
+      "azureServices": [
+        ".NET"
+      ]
+    },
+    {
+      "id": 105,
+      "dateTime": "Thursday, May 22 at 10:00 AM Australian Eastern Standard Time",
+      "title": "Adventures in AI: Deploying and inferencing open source and custom models on K8s",
+      "description": "Explore how to containerize and deploy custom LLMs on AKS, starting from a managed namespace and using tools like KAITO.",
+      "speakers": [
+        "Jorge Palma",
+        "Sachi Desai"
+      ],
+      "azureServices": [
+        "Azure Kubernetes Service (AKS)",
+        "KAITO"
+      ]
+    },
+    {
+      "id": 106,
+      "dateTime": "Thursday, May 22 at 10:00 AM Australian Eastern Standard Time",
+      "title": "Debug Like a Pro: Improve Your Efficiency with Visual Studio & Copilot",
+      "description": "Discover powerful debugging features in Visual Studio, enhanced with GitHub Copilot’s AI-assisted workflows.",
+      "speakers": [
+        "Cagri (Charlie) Aslan",
+        "Harshada Hole"
+      ],
+      "azureServices": [
+        "GitHub Copilot",
+        "Visual Studio"
+      ]
+    },
+    {
+      "id": 107,
+      "dateTime": "Thursday, May 22 at 10:00 AM Australian Eastern Standard Time",
+      "title": "Revolutionizing AI Apps with Multimodal Models in Azure AI Foundry",
+      "description": "Explore how Azure AI Foundry’s multimodal models enhance AI applications for efficiency, accuracy, and customer satisfaction.",
+      "speakers": [
+        "Sidd Shah",
+        "Saloni Sonpal",
+        "Malavika Pande",
+        "Thasmika Gokal",
+        "Cameron Milne"
+      ],
+      "azureServices": [
+        "Azure AI Foundry"
+      ]
+    },
+    {
+      "id": 108,
+      "dateTime": "Thursday, May 22 at 10:00 AM Australian Eastern Standard Time",
+      "title": "The future of web development with ASP.NET Core & Blazor",
+      "description": "Learn about new AI-infused security enhancements, monitoring updates, and Blazor's evolving role in web development.",
+      "speakers": [
+        "Daniel Roth",
+        "Mike Kistler"
+      ],
+      "azureServices": [
+        "ASP.NET Core",
+        "Blazor"
+      ]
+    },
+    {
+      "id": 109,
+      "dateTime": "Thursday, May 22 at 10:00 AM Australian Eastern Standard Time",
+      "title": "Tips & tricks to enhance Windows Arm64 App performance",
+      "description": "Discover techniques and tools for optimizing performance on Arm native apps, including intrinsic operations, assembly optimizations, and calling conventions.",
+      "speakers": [
+        "Chris Goodyer",
+        "Marcus Perryman",
+        "Jamshed Damkewala"
+      ],
+      "azureServices": []
+    },
+    {
+      "id": 115,
+      "dateTime": "Thursday, May 22 at 10:00 AM Australian Eastern Standard Time",
+      "title": "Train a custom reasoning model at scale with Azure Machine Learning",
+      "description": "Learn how to leverage Azure Machine Learning’s infrastructure to streamline training, optimize performance, and scale models efficiently for reasoning-based applications.",
+      "speakers": [],
+      "azureServices": [
+        "Azure Machine Learning"
+      ]
+    },
+    {
+      "id": 116,
+      "dateTime": "Thursday, May 22 at 10:00 AM Australian Eastern Standard Time",
+      "title": "Use agents and automations to transform business processes with Copilot Studio",
+      "description": "Discover new automation capabilities in Copilot Studio, including deterministic agent flows and UI automation with AI vision.",
+      "speakers": [
+        "Christy Jefson",
+        "Marek Lutz",
+        "Anjli Chaudhry",
+        "Joe Fernandez"
+      ],
+      "azureServices": [
+        "Copilot Studio"
+      ]
+    },
+    {
+      "id": 117,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "A 10x Faster TypeScript with Anders Hejlsberg",
+      "description": "Learn about the TypeScript compiler’s transition to native code, resulting in significant speed improvements in compile time and project loading.",
+      "speakers": [
+        "Anders Hejlsberg"
+      ],
+      "azureServices": [
+        "TypeScript"
+      ]
+    },
+    {
+      "id": 118,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "Build the next gen of AI apps with .NET: Models, Data, Agents, & More",
+      "description": "Explore how .NET is evolving for AI-powered development, including Model Context Protocol (MCP), intelligent agents, and new AI-ready templates.",
+      "speakers": [
+        "Brady Gaster",
+        "Jon Galloway",
+        "Jeremy Likness"
+      ],
+      "azureServices": [
+        ".NET",
+        "Model Context Protocol (MCP)"
+      ]
+    },
+    {
+      "id": 119,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "Introducing the Agent Store: Build agents and publish them in the Agent Store for Microsoft 365 Copilot",
+      "description": "Learn how to publish agents to the Microsoft 365 Agent Store and access customers across Copilot endpoints.",
+      "speakers": [
+        "Steven Abrahams",
+        "Siffat Hingorani"
+      ],
+      "azureServices": [
+        "Microsoft 365 Copilot",
+        "Agent Store"
+      ]
+    },
+    {
+      "id": 120,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "Reflections on 25 years of writing secure code",
+      "description": "Join Michael Howard as he reflects on the evolution of secure coding practices and today’s challenges in building secure applications.",
+      "speakers": [
+        "Michael Howard"
+      ],
+      "azureServices": [
+        "Azure Security"
+      ]
+    },
+    {
+      "id": 121,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "Secure and govern your enterprise-scale agents with Copilot Studio",
+      "description": "Discover how Microsoft Purview, Power Platform security, and Copilot Studio ensure enterprise-grade security and compliance for AI agents.",
+      "speakers": [
+        "Zohar Raz",
+        "Aisha Hasan",
+        "Asaf Tzuk"
+      ],
+      "azureServices": [
+        "Copilot Studio",
+        "Microsoft Purview",
+        "Power Platform Security"
+      ]
+    },
+    {
+      "id": 122,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "Simplify dev setup with WinGet & Microsoft Desired State Configuration",
+      "description": "Learn how WinGet Configuration makes machine and server setups easier by automating configurations across devices or in Microsoft Dev Box.",
+      "speakers": [
+        "Demitrius Nelon"
+      ],
+      "azureServices": [
+        "WinGet",
+        "Microsoft Desired State Configuration"
+      ]
+    },
+    {
+      "id": 123,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "Unleash developer potential with AI and Dev Box",
+      "description": "Explore how Microsoft Dev Box revolutionizes AI development with customizable, project-centric workspaces and integration with Visual Studio and VS Code.",
+      "speakers": [
+        "Denizhan Yigitbas",
+        "Dhruv Chand"
+      ],
+      "azureServices": [
+        "Microsoft Dev Box"
+      ]
+    },
+    {
+      "id": 124,
+      "dateTime": "Friday, May 23 at 1:30 AM Australian Eastern Standard Time",
+      "title": "Unlock developer agility with a well-governed environment",
+      "description": "Learn how Azure Policy and newly released Service Groups optimize cross-subscription governance for secure cloud environments.",
+      "speakers": [
+        "Jodi Boone",
+        "Kemley Nieva"
+      ],
+      "azureServices": [
+        "Azure Policy"
+      ]
+    },
+    {
+      "id": 125,
+      "dateTime": "Friday, May 23 at 3:00 AM Australian Eastern Standard Time",
+      "title": "A Visual Studio Story: How We Build Software Loved by Millions of Developers",
+      "description": "Get a behind-the-scenes look at how the Visual Studio team designs and delivers software used by millions of developers worldwide.",
+      "speakers": [
+        "Mads Kristensen"
+      ],
+      "azureServices": [
+        "Visual Studio"
+      ]
+    },
+    {
+      "id": 126,
+      "dateTime": "Friday, May 23 at 3:00 AM Australian Eastern Standard Time",
+      "title": "AI-infused mobile & desktop app development with .NET MAUI",
+      "description": "Learn how .NET MAUI enables multi-platform AI development across iOS, Android, macOS, and Windows.",
+      "speakers": [
+        "Beth Massi",
+        "David Ortinau",
+        "Gerald Versluis"
+      ],
+      "azureServices": [
+        ".NET MAUI"
+      ]
+    },
+    {
+      "id": 127,
+      "dateTime": "Friday, May 23 at 3:00 AM Australian Eastern Standard Time",
+      "title": "Build and deploy AI apps faster with low code and DevOps",
+      "description": "Learn how Power Platform and DevOps best practices speed up AI-enabled app development and enterprise-grade deployments.",
+      "speakers": [
+        "Casey Burke",
+        "Marcel Ferreira"
+      ],
+      "azureServices": [
+        "Power Platform",
+        "Azure DevOps"
+      ]
+    },
+    {
+      "id": 128,
+      "dateTime": "Friday, May 23 at 3:00 AM Australian Eastern Standard Time",
+      "title": "Building agents in Copilot Studio using Model Context Protocol, open standards and more",
+      "description": "Learn how to build advanced Copilot Studio agents by integrating Azure AI Search, Azure model catalog, and Model Context Protocol (MCP).",
+      "speakers": [
+        "Mads Bolaris",
+        "Nate Moore",
+        "Zankar Desai"
+      ],
+      "azureServices": [
+        "Copilot Studio",
+        "Azure AI Search",
+        "Model Context Protocol (MCP)"
+      ]
+    },
+    {
+      "id": 129,
+      "dateTime": "Friday, May 23 at 3:00 AM Australian Eastern Standard Time",
+      "title": "Crafting great Windows native app experiences",
+      "description": "Explore best practices for creating integrated and performant desktop apps with WPF, WinUI, and the Windows App SDK.",
+      "speakers": [
+        "Niels Laute",
+        "Sergio Pedri"
+      ],
+      "azureServices": [
+        "Windows App SDK",
+        "WinUI"
+      ]
+    },
+    {
+      "id": 130,
+      "dateTime": "Friday, May 23 at 3:00 AM Australian Eastern Standard Time",
+      "title": "Learn How Microsoft secured the Engineering System",
+      "description": "Explore how Microsoft strengthened the security of its engineering system, including updates to Azure DevOps and lessons applicable to customer environments.",
+      "speakers": [
+        "Rajesh Ramamurthy",
+        "Karl Piteira"
+      ],
+      "azureServices": [
+        "Azure DevOps",
+        "Microsoft Security"
+      ]
+    },
+    {
+      "id": 131,
+      "dateTime": "Friday, May 23 at 4:30 AM Australian Eastern Standard Time",
+      "title": "Scott and Mark Learn to...LIVE",
+      "description": "Join Mark Russinovich and Scott Hanselman as they combine everything learned at Microsoft Build into one live, unscripted coding session—pure AI, code, and epic demos!",
+      "speakers": [
+        "Mark Russinovich",
+        "Scott Hanselman"
+      ],
+      "azureServices": [
+        "Azure AI",
+        "Visual Studio",
+        "GitHub Copilot"
+      ]
+    },
+    {
+      "id": 132,
+      "dateTime": "Friday, May 23 at 10:00 AM Australian Eastern Standard Time",
+      "title": "10x Your Productivity: VS Code + GitHub Copilot Agent Mode & MCP",
+      "description": "Discover how GitHub Copilot’s Agent mode and Model Context Protocol (MCP) transform your development workflow, boosting productivity with automated AI assistance.",
+      "speakers": [
+        "Mahmoud Abdelwahab"
+      ],
+      "azureServices": [
+        "GitHub Copilot",
+        "Model Context Protocol (MCP)",
+        "Visual Studio Code"
+      ]
+    },
+    {
+      "id": 133,
+      "dateTime": "Friday, May 23 at 10:00 AM Australian Eastern Standard Time",
+      "title": "A new era of AI for digital resilience with Splunk on Azure",
+      "description": "Explore how Splunk’s AI-powered Cloud Platform enables enterprise-wide integration, security, and observability for hybrid cloud environments on Azure.",
+      "speakers": [
+        "Jason Conger",
+        "Wayne Brown"
+      ],
+      "azureServices": [
+        "Azure",
+        "Splunk AI"
+      ]
+    },
+    {
+      "id": 134,
+      "dateTime": "Friday, May 23 at 10:00 AM Australian Eastern Standard Time",
+      "title": "Accelerate bug-free, agile development and automated testing",
+      "description": "Discover how AI-powered automation tools improve software quality, streamline testing processes, and accelerate enterprise software delivery cycles.",
+      "speakers": [
+        "Corey Pendleton"
+      ],
+      "azureServices": [
+        "Azure DevOps",
+        "GitHub Copilot"
+      ]
+    }
+]
+
+
+
